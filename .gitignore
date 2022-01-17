@@ -29,3 +29,5 @@ SKC_4
 #VocalSharp
 *.scep
 *.vssf
+*.vsdx
+*.vsdxindex
