@@ -53,7 +53,7 @@
 ひ
 #hi
 ふ
-#hu
+#fu
 へ
 #he
 ほ
@@ -287,7 +287,7 @@ ha
 hi
 #hi
 hu
-#hu
+#fu
 he
 #he
 ho
@@ -424,6 +424,8 @@ fe
 #fe
 fo
 #fo
+fu
+#fu
 mya
 #mya
 myu

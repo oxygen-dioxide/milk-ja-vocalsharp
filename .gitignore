@@ -31,3 +31,6 @@ SKC_4
 *.vssf
 *.vsdx
 *.vsdxindex
+
+#Packed binary
+*.7z
