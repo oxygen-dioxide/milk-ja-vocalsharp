@@ -10,6 +10,10 @@ Milk is a UTAU virtual singer developed by Xepheris. This repo ports Milk's Japa
 
 According to Milk's [Voicebank Terms of Use](license.md), redistribution of voicebanks, editing of oto.ini and audio samples, and porting to other synthesis softwares are allowed without permission, so long as the voicebank name and author are credited, and any changes you have made are clearly stated.
 
+If you like this voicebank, please give him a star.
+
+If you find a bug, please [create an issue](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/issues/new) to report it.
+
 ## Download
 [Download from Github](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/releases)
 

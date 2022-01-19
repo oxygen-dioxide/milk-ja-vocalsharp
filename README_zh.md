@@ -10,6 +10,10 @@ Milk是Xepheris制作的UTAU虚拟歌手。本仓库是Milk日文VCV音源的镜
 
 根据Milk的[用户协议](https://github.com/oxygen-dioxide/milk-jpn/blob/main/license.md)，转载，修改oto.ini和音频文件，以及移植到其他合成引擎是允许的，但须正确地注明音源名称“Milk”和原作者“Xepheris”，并明确地声明你所作的改动。
 
+如果你喜欢这个音源，请给他点一个Star。
+
+如果你发现了bug，请[创建issue](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/issues/new)
+
 ## 下载
 [从Github下载](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/releases)
 
