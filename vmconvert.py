@@ -34,9 +34,8 @@ for line in open(otopath.replace("oto.ini","main.lsd"),encoding="utf8").readline
             lsddict[currentword]=line.split("#")
         else:#拼音
             currentword=line
-Cs={value[0] for value in lsddict.values()}#辅音列表
-Vs={value[1] for value in lsddict.values()}#元音列表
-
+Vs=Valias.keys()#音节
+Cs=Calias.keys()
 #oto转vsdxmf
 vsdxmfdict={}#{vsdxmf记号:oto记号}
 
@@ -46,7 +45,7 @@ print("====VC====")
 #print("i" in Vs)
 #print("bi" in Vs)
 #input()
-for (V,C) in itertools.product(Vs|{""},Cs|Vs|{""}):
+for (V,C) in itertools.product(Vs|{""},Cs|{""}):
     VCotokey=Valias.get(V,V)+" "+Calias.get(C,C)
     if(VCotokey in otodict):
         vsdxmfdict[V+" "+C]=VCotokey
@@ -78,15 +77,16 @@ def lineconvert(otoline,name=[]):
     ]
 vsdxmf=[lineconvert(otodict[otokey],vskeys) for (otokey,vskeys) in vsdxmfdict_r.items()]
 #缺失的开头音用空白音频
+"""
 begins=[]
 print("====开头音====")
-for C in (Cs|Vs)-{""," "}:
+for C in (Vs)-{""," "}:
     if(not(" "+C in vsdxmfdict)):
         print("开头音"+" "+C)
         begins.append(" "+C)
 if(begins!=[]):
     vsdxmf.append([begins,"empty.wav",1100,1300,1400,1500,1200])
-
+"""
 #输出vsdxmf文件
 with open(otopath.replace("oto.ini","main.vsdxmf"),"w",encoding="utf8") as vsdxmffile:
     for value in vsdxmf:
