@@ -4,7 +4,8 @@
 
 [Github](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/blob/main/README_zh.md) | 
 [Gitlab](https://gitlab.com/oxygen-dioxide/milk-jpn-vocalsharp/-/blob/main/README_zh.md) | 
-[Bitbucket](https://bitbucket.org/oxygendioxide/milk-jpn-vocalsharp/src/main/README_zh.md) |
+[Bitbucket](https://bitbucket.org/oxygendioxide/milk-jpn-vocalsharp/src/main/README_zh.md) | 
+[Coding](https://oxygen-dioxide.coding.net/public/1/milk-jpn-vocalsharp/git/files)
 
 Milk是Xepheris制作的UTAU虚拟歌手。本仓库是Milk日文VCV音源的镜像站。音频和oto均没有修改。
 
