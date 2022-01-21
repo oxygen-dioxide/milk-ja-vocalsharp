@@ -16,7 +16,9 @@ If you like this voicebank, please give him a star.
 If you find a bug, please [create an issue](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/issues/new) to report it.
 
 ## Download
-[Download from Github](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/releases)
+- [Download from Github](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/releases)
+- [Download from Aliyun Drive](https://www.aliyundrive.com/s/6PEhKzpz4fZ)
+- [Download from Tencent Weiyun](https://share.weiyun.com/apTlQ1BT)
 
 ## Tech Specs
 - 6 pitches（A3、F3、D4、G4、PowerC5、Falsetto）
@@ -31,6 +33,7 @@ Currently please don't create pull requests, especially those about .vsdxmf file
 ## Changes to the source files
 - 0.2s of blank audio are added to the begin and end of each audio file to meet vocalsharp's requirement.
 - oto.ini files are converted to main.vsdxmf with my python script
+- The volume of different pitches are unified.
 
 ## Links
 - CV：Xepheris

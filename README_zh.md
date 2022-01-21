@@ -16,7 +16,9 @@ Milk是Xepheris制作的UTAU虚拟歌手。本仓库是Milk日文VCV音源的镜
 如果你发现了bug，请[创建issue](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/issues/new)
 
 ## 下载
-[从Github下载](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/releases)
+- [从Github下载](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp/releases)
+- [从阿里云盘下载](https://www.aliyundrive.com/s/6PEhKzpz4fZ)
+- [从腾讯微云下载](https://share.weiyun.com/apTlQ1BT)
 
 ## 技术规格
 - 六音阶（A3、F3、D4、G4、PowerC5、假声(Falsetto)）
@@ -30,6 +32,7 @@ Milk是Xepheris制作的UTAU虚拟歌手。本仓库是Milk日文VCV音源的镜
 
 ## 对源文件的修改
 - 每个音频文件开头和结尾加0.2s空白音频，因为vocalsharp不允许标记线离头尾太近。
+- 统一了不同音阶的音量
 - 将oto.ini使用python脚本转为main.vsdxmf
 
 ## 相关链接
