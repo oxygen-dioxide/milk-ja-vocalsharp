@@ -18,6 +18,7 @@ else:
 otodict={}#条目名称->对应的oto条目
 for line in open(otopath,encoding="shift-jis").readlines():
     linecontent=line.replace("=",",").split(",")
+    #print(linecontent)
     for i in [2,3,4,5,6]:
         linecontent[i]=float(linecontent[i])
     otodict[linecontent[1]]=linecontent
