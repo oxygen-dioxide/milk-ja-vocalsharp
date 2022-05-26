@@ -5,7 +5,8 @@
 [Github](https://github.com/oxygen-dioxide/milk-jpn-vocalsharp) | 
 [Gitlab](https://gitlab.com/oxygen-dioxide/milk-jpn-vocalsharp) | 
 [Bitbucket](https://bitbucket.org/oxygendioxide/milk-jpn-vocalsharp) | 
-[Coding](https://oxygen-dioxide.coding.net/public/1/milk-jpn-vocalsharp/git/files)
+[Coding](https://oxygen-dioxide.coding.net/public/1/milk-jpn-vocalsharp/git/files) | 
+[Jihulab](https://jihulab.com/oxygen-dioxide/milk-jpn-vocalsharp)
 
 Milk is a UTAU virtual singer developed by Xepheris. This repo ports Milk's Japanese VCV UTAU voicebank to Vocalsharp.
 
